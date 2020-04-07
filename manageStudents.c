@@ -2,8 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define FILE_INPUT
-#define DEBUG
+//#define FILE_INPUT
+//#define DEBUG
+
 #define MAX_STUDENT_NUMBER 5500
 #define NAME 1
 #define COUNTRY 2
@@ -40,7 +41,11 @@ typedef struct Array
     int end;
 } Array;
 
+//array of all the students
 Student students[MAX_STUDENT_NUMBER];
+//array to save changes in merge-sort
+Student students_copy[MAX_STUDENT_NUMBER];
+//stores the number of students entered
 int students_number = 0;
 
 void findBestStudent();
@@ -159,7 +164,7 @@ void inputStudent()
     char input[LENGTH_LINE];
     Student student;
 #ifdef FILE_INPUT
-    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\quick_input12multi2_unsorted.txt",
+    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\quick_input8_unsorted.txt",
             "r");
 #endif
     while (students_number < MAX_STUDENT_NUMBER)
@@ -222,18 +227,17 @@ void merge(Array a, Array b)
     int i = a.start;
     int j = b.start;
     int k = 0;
-    Student mergeArray[(b.end - a.start) + 1];
 
     while (i <= a.end && j <= b.end)
     {
         if (students[i].grade <= students[j].grade)
         {
-            mergeArray[k] = students[i];
+            students_copy[k] = students[i];
             i++;
         }
         else
         {
-            mergeArray[k] = students[j];
+            students_copy[k] = students[j];
             j++;
         }
         k++;
@@ -241,14 +245,14 @@ void merge(Array a, Array b)
 
     while (i <= a.end)
     {
-        mergeArray[k] = students[i];
+        students_copy[k] = students[i];
         i++;
         k++;
     }
 
     while (j <= b.end)
     {
-        mergeArray[k] = students[j];
+        students_copy[k] = students[j];
         j++;
         k++;
     }
@@ -257,7 +261,7 @@ void merge(Array a, Array b)
     k = 0;
     for (int t = a.start; t <= b.end; t++)
     {
-        students[t] = mergeArray[k];
+        students[t] = students_copy[k];
         k++;
     }
 }
