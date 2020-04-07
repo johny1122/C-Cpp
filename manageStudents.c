@@ -2,11 +2,14 @@
 #include <string.h>
 #include <stdlib.h>
 
+//#define FILE_INPUT
+//#define DEBUG
 #define MAX_STUDENT_NUMBER 5500
 #define NAME 1
 #define COUNTRY 2
 #define CITY 3
 #define NUMBER_OF_PARAMETERS 6
+#define START_OF_ARRAY 0
 #define LENGTH_LINE 59
 #define MINIMUM_AGE 18
 #define MAXIMUM_AGE 120
@@ -27,7 +30,7 @@ typedef struct Student
 } Student;
 
 /**
- * @brief a struck of the start and end of an array
+ * @brief a struck which saves the start and end of an array
  */
 typedef struct Array
 {
@@ -46,13 +49,17 @@ int checkInput(Student student, int params_number);
 
 int checkNames(char str[], char type);
 
-void merge(Array A, Array B);
+void merge(Array a, Array b);
 
-void mergeSort();
+void mergeSort(Array currArray);
 
+void quickSort(Array currArray);
+
+int partition(Array currArray);
+
+void swap(int i, int j);
 
 //***************************************************
-
 
 /**
  * @brief checks if all the strings input names and valid
@@ -64,7 +71,7 @@ int checkNames(char str[], char type)
         for (int i = 0; i < (int) strlen(str); i++)
         {
             if (!((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122) || (str[i] == 32)
-                  || (str[i] == 45)))
+                || (str[i] == 45)))
             {
                 return 1;
             }
@@ -75,7 +82,7 @@ int checkNames(char str[], char type)
         for (int i = 0; i < (int) strlen(str); i++)
         {
             if (!((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122)
-                  || (str[i] == 45)))
+                || (str[i] == 45)))
             {
                 return 1;
             }
@@ -83,7 +90,6 @@ int checkNames(char str[], char type)
     }
     return 0;
 }
-
 
 /**
  * @brief checks if a line input is valid
@@ -95,7 +101,7 @@ int checkInput(Student student, int params_number)
 {
     if (params_number != NUMBER_OF_PARAMETERS)
     {
-        printf("ERROR: number of input parameters is different than 6\n");
+        printf("ERROR: info must match specified format\n");
         return 1;
     }
 
@@ -150,14 +156,18 @@ void inputStudent()
     int line_count = 0;
     char input[LENGTH_LINE];
     Student student;
-    //TODO delete line below
-//    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\input6_unsorted.txt","r");
+#ifdef FILE_INPUT
+    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\quick_input12multi_unsorted.txt",
+            "r");
+#endif
     while (students_number < MAX_STUDENT_NUMBER)
     {
-        //TODO change back
+#ifndef FILE_INPUT
         printf("Enter student info. To exit press q, then enter\n");
         fgets(input, LENGTH_LINE, stdin);
-//        fgets(input, LENGTH_LINE, file);
+#else
+        fgets(input, LENGTH_LINE, file);
+#endif
         strtok(input, "\n");
         if (input[0] == 'q')
         {
@@ -202,8 +212,8 @@ void findBestStudent()
 
 /**
  * @brief merge 2 arrays to 1 sorted array
- * @param studentsA
- * @param studentsB
+ * @param a struct of Array
+ * @param b struct of Array
  */
 void merge(Array a, Array b)
 {
@@ -211,6 +221,7 @@ void merge(Array a, Array b)
     int j = b.start;
     int k = 0;
     Student mergeArray[(b.end - a.start) + 1];
+
     while (i <= a.end && j <= b.end)
     {
         if (students[i].grade <= students[j].grade)
@@ -225,18 +236,21 @@ void merge(Array a, Array b)
         }
         k++;
     }
+
     while (i <= a.end)
     {
         mergeArray[k] = students[i];
         i++;
         k++;
     }
+
     while (j <= b.end)
     {
         mergeArray[k] = students[j];
         j++;
         k++;
     }
+
     //put back the sort elements in the original array
     k = 0;
     for (int t = a.start; t <= b.end; t++)
@@ -270,6 +284,79 @@ void mergeSort(Array currArray)
     }
 }
 
+
+/**
+ * @brief swap 2 student in the students array
+ * @param i student index in array
+ * @param j student index in array
+ */
+void swap(int i, int j)
+{
+    Student temp = students[i];
+    students[i] = students[j];
+    students[j] = temp;
+}
+
+/**
+ * @brief do the partition part of quick-sort
+ * @param currArray struct of the current array handled
+ */
+int partition(Array currArray)
+{
+    int store_index = currArray.start - 1;
+    for (int i = currArray.start; i < currArray.end; i++)
+    {
+        if (students[i].name[START_OF_ARRAY] < students[currArray.end].name[START_OF_ARRAY])
+        {
+            store_index++;
+            swap(i, store_index);
+        }
+
+        else if (students[i].name[START_OF_ARRAY] == students[currArray.end].name[START_OF_ARRAY])
+        {
+            int name_length = strlen(students[i].name);
+            int j = 0;
+            do
+            {
+                j++;
+                if (students[i].name[j] < students[currArray.end].name[j])
+                {
+                    store_index++;
+                    swap(i, store_index);
+                    break;
+                }
+            } while ((students[i].name[j] == students[currArray.end].name[j]) && (j < name_length - 1));
+        }
+    }
+    swap(store_index + 1, currArray.end);
+    return store_index + 1;
+}
+
+/**
+ * @brief sort the students array alphabetically with quick-sort algorithm
+ */
+void quickSort(Array currArray)
+{
+    if (currArray.start < currArray.end)
+    {
+        int partition_index = partition(currArray);
+
+        Array small;
+        small.start = currArray.start;
+        small.end = partition_index - 1;
+        quickSort(small);
+
+        Array big;
+        big.start = partition_index + 1;
+        big.end = currArray.end;
+        quickSort(big);
+
+    }
+}
+
+/**
+ * @brief prints a sorted student array
+ */
 void printSort()
 {
     for (int i = 0; i < students_number; i++)
@@ -294,18 +381,33 @@ int main(int argc, char *argv[])
         inputStudent();
         if (students_number == 0)
         {
-            return 1;
+            return 0;
         }
+
         else if (strcmp(argv[1], "best") == 0)
         {
             findBestStudent();
         }
+
         else if (strcmp(argv[1], "merge") == 0)
         {
             Array full_array;
             full_array.start = 0;
             full_array.end = students_number - 1;
             mergeSort(full_array);
+            printSort();
+        }
+
+        else if (strcmp(argv[1], "quick") == 0)
+        {
+#ifdef DEBUG
+            printSort();
+            printf("\n");
+#endif
+            Array full_array;
+            full_array.start = 0;
+            full_array.end = students_number - 1;
+            quickSort(full_array);
             printSort();
         }
     }
