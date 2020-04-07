@@ -2,19 +2,21 @@
 #include <string.h>
 #include <stdlib.h>
 
-//#define FILE_INPUT
-//#define DEBUG
+#define FILE_INPUT
+#define DEBUG
 #define MAX_STUDENT_NUMBER 5500
 #define NAME 1
 #define COUNTRY 2
 #define CITY 3
 #define NUMBER_OF_PARAMETERS 6
-#define START_OF_ARRAY 0
 #define LENGTH_LINE 59
 #define MINIMUM_AGE 18
 #define MAXIMUM_AGE 120
 #define MINIMUM_GRADE 0
 #define MAXIMUM_GRADE 100
+#define OVER_ID_NUMBER 1000000000
+#define BELOW_ID_NUMBER 9999999999
+
 
 /**
  * @brief a struck of student
@@ -70,8 +72,8 @@ int checkNames(char str[], char type)
     {
         for (int i = 0; i < (int) strlen(str); i++)
         {
-            if (!((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122) || (str[i] == 32)
-                || (str[i] == 45)))
+            if (!((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z') || (str[i] == ' ')
+                || (str[i] == '-')))
             {
                 return 1;
             }
@@ -81,8 +83,8 @@ int checkNames(char str[], char type)
     {
         for (int i = 0; i < (int) strlen(str); i++)
         {
-            if (!((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122)
-                || (str[i] == 45)))
+            if (!((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z')
+                || (str[i] == '-')))
             {
                 return 1;
             }
@@ -105,7 +107,7 @@ int checkInput(Student student, int params_number)
         return 1;
     }
 
-    else if ((student.id < 1000000000) || (student.id > 9999999999))
+    else if ((student.id < OVER_ID_NUMBER) || (student.id > BELOW_ID_NUMBER))
     {
         printf("ERROR: id must be a 10 digits number that does not start with 0\n");
         return 1;
@@ -157,7 +159,7 @@ void inputStudent()
     char input[LENGTH_LINE];
     Student student;
 #ifdef FILE_INPUT
-    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\quick_input12multi_unsorted.txt",
+    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\quick_input12multi2_unsorted.txt",
             "r");
 #endif
     while (students_number < MAX_STUDENT_NUMBER)
@@ -284,7 +286,6 @@ void mergeSort(Array currArray)
     }
 }
 
-
 /**
  * @brief swap 2 student in the students array
  * @param i student index in array
@@ -306,27 +307,12 @@ int partition(Array currArray)
     int store_index = currArray.start - 1;
     for (int i = currArray.start; i < currArray.end; i++)
     {
-        if (students[i].name[START_OF_ARRAY] < students[currArray.end].name[START_OF_ARRAY])
+        if (strcmp(students[i].name, students[currArray.end].name) < 0)
         {
             store_index++;
             swap(i, store_index);
         }
 
-        else if (students[i].name[START_OF_ARRAY] == students[currArray.end].name[START_OF_ARRAY])
-        {
-            int name_length = strlen(students[i].name);
-            int j = 0;
-            do
-            {
-                j++;
-                if (students[i].name[j] < students[currArray.end].name[j])
-                {
-                    store_index++;
-                    swap(i, store_index);
-                    break;
-                }
-            } while ((students[i].name[j] == students[currArray.end].name[j]) && (j < name_length - 1));
-        }
     }
     swap(store_index + 1, currArray.end);
     return store_index + 1;
@@ -391,6 +377,10 @@ int main(int argc, char *argv[])
 
         else if (strcmp(argv[1], "merge") == 0)
         {
+#ifdef DEBUG
+            printSort();
+            printf("\n");
+#endif
             Array full_array;
             full_array.start = 0;
             full_array.end = students_number - 1;
@@ -418,5 +408,3 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
-
-
