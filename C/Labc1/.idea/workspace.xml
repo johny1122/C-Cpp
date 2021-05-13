@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Labc1" targetName="Labc1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3db19ca-ce7f-44de-b959-4e3b63d29d39" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1ZZ6pNAzpxQ7NRFOqlXjnnsxgNq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex1" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Labc1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Labc1" TARGET_NAME="Labc1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Labc1" RUN_TARGET_NAME="Labc1">
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_style" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3db19ca-ce7f-44de-b959-4e3b63d29d39" name="Default Changelist" comment="" />
+      <created>1585034450195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585034450195</updated>
+      <workItem from="1585034451340" duration="5816000" />
+      <workItem from="1585212823346" duration="397000" />
+      <workItem from="1585216567727" duration="98000" />
+      <workItem from="1585638615952" duration="1107000" />
+      <workItem from="1586172068707" duration="90000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586172120696">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586172120696" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585036173795">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585036173795" />
+    <state x="394" y="97" width="492" height="343" key="#com.intellij.tools.ToolEditorDialog" timestamp="1586172115193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="394" y="97" width="492" height="343" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1586172115193" />
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1586172157759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586172157759" />
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1586172158736">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586172158736" />
+    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1586172158736">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586172158736" />
+    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1586172158736">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586172158736" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1586172158736">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586172158736" />
+    <state x="142" y="0" width="1078" height="680" key="SettingsEditor" timestamp="1585213186696">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" width="1078" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585213186696" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585216665874">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1585216665874" />
+    <state x="536" y="76" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1586172116027">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="536" y="76" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1280.680@0.0.1280.680" timestamp="1586172116027" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585212833428">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585212833428" />
+  </component>
+</project>

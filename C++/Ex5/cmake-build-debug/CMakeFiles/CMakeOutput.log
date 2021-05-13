@@ -1,0 +1,1041 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_4f39c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_4f39c.dir\build.make /nologo -L                  CMakeFiles\cmTC_4f39c.dir\build
+Building C object CMakeFiles/cmTC_4f39c.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm6A70.tmp
+testCCompiler.c
+Linking C executable cmTC_4f39c.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_4f39c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_4f39c.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm6CE2.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_fc239\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_fc239.dir\build.make /nologo -L                  CMakeFiles\cmTC_fc239.dir\build
+Building C object CMakeFiles/cmTC_fc239.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm81D0.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_fc239.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_fc239.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_fc239.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm827D.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_9bd66\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_9bd66.dir\build.make /nologo -L                  CMakeFiles\cmTC_9bd66.dir\build
+Building CXX object CMakeFiles/cmTC_9bd66.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9299.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_9bd66.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9bd66.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_9bd66.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm9440.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_d588c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_d588c.dir\build.make /nologo -L                  CMakeFiles\cmTC_d588c.dir\build
+Building CXX object CMakeFiles/cmTC_d588c.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9E12.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d588c.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d588c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d588c.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm9EDE.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_7ec71\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_7ec71.dir\build.make /nologo -L                  CMakeFiles\cmTC_7ec71.dir\build
+Building C object CMakeFiles/cmTC_7ec71.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmA4E4.tmp
+testCCompiler.c
+Linking C executable cmTC_7ec71.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7ec71.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7ec71.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmA5BF.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_c5670\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_c5670.dir\build.make /nologo -L                  CMakeFiles\cmTC_c5670.dir\build
+Building C object CMakeFiles/cmTC_c5670.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmAF82.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_c5670.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c5670.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_c5670.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmB010.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e6125\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e6125.dir\build.make /nologo -L                  CMakeFiles\cmTC_e6125.dir\build
+Building CXX object CMakeFiles/cmTC_e6125.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmBA02.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_e6125.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e6125.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e6125.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmBAED.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_fd2e4\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_fd2e4.dir\build.make /nologo -L                  CMakeFiles\cmTC_fd2e4.dir\build
+Building CXX object CMakeFiles/cmTC_fd2e4.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmC2BC.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_fd2e4.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_fd2e4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_fd2e4.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmC359.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_66c0b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_66c0b.dir\build.make /nologo -L                  CMakeFiles\cmTC_66c0b.dir\build
+Building C object CMakeFiles/cmTC_66c0b.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmD337.tmp
+testCCompiler.c
+Linking C executable cmTC_66c0b.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_66c0b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_66c0b.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmD3C5.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_40883\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_40883.dir\build.make /nologo -L                  CMakeFiles\cmTC_40883.dir\build
+Building C object CMakeFiles/cmTC_40883.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmDAA9.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_40883.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_40883.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_40883.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmDB27.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_6dfb5\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_6dfb5.dir\build.make /nologo -L                  CMakeFiles\cmTC_6dfb5.dir\build
+Building CXX object CMakeFiles/cmTC_6dfb5.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmE20C.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_6dfb5.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6dfb5.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6dfb5.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmE2A9.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_d7bd1\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_d7bd1.dir\build.make /nologo -L                  CMakeFiles\cmTC_d7bd1.dir\build
+Building CXX object CMakeFiles/cmTC_d7bd1.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmE9FB.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d7bd1.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d7bd1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d7bd1.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmEA98.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_96dec\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_96dec.dir\build.make /nologo -L                  CMakeFiles\cmTC_96dec.dir\build
+Building C object CMakeFiles/cmTC_96dec.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm36D3.tmp
+testCCompiler.c
+Linking C executable cmTC_96dec.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_96dec.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_96dec.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm3770.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e6d6a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e6d6a.dir\build.make /nologo -L                  CMakeFiles\cmTC_e6d6a.dir\build
+Building C object CMakeFiles/cmTC_e6d6a.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm3F3F.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_e6d6a.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e6d6a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e6d6a.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm3FCD.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_37758\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_37758.dir\build.make /nologo -L                  CMakeFiles\cmTC_37758.dir\build
+Building CXX object CMakeFiles/cmTC_37758.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm474E.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_37758.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_37758.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_37758.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm47EB.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_48fae\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_48fae.dir\build.make /nologo -L                  CMakeFiles\cmTC_48fae.dir\build
+Building CXX object CMakeFiles/cmTC_48fae.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm4E43.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_48fae.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_48fae.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_48fae.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm4EE0.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_f4d70\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_f4d70.dir\build.make /nologo -L                  CMakeFiles\cmTC_f4d70.dir\build
+Building C object CMakeFiles/cmTC_f4d70.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm5FA8.tmp
+testCCompiler.c
+Linking C executable cmTC_f4d70.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f4d70.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_f4d70.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm6084.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_aa2e9\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_aa2e9.dir\build.make /nologo -L                  CMakeFiles\cmTC_aa2e9.dir\build
+Building C object CMakeFiles/cmTC_aa2e9.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm67A7.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_aa2e9.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_aa2e9.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_aa2e9.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm6854.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_ae9c4\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_ae9c4.dir\build.make /nologo -L                  CMakeFiles\cmTC_ae9c4.dir\build
+Building CXX object CMakeFiles/cmTC_ae9c4.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm70DE.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_ae9c4.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_ae9c4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_ae9c4.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm71D9.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e81c2\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e81c2.dir\build.make /nologo -L                  CMakeFiles\cmTC_e81c2.dir\build
+Building CXX object CMakeFiles/cmTC_e81c2.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm789F.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e81c2.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e81c2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e81c2.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm794C.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e470d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e470d.dir\build.make /nologo -L                  CMakeFiles\cmTC_e470d.dir\build
+Building C object CMakeFiles/cmTC_e470d.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm8745.tmp
+testCCompiler.c
+Linking C executable cmTC_e470d.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e470d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e470d.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm87C3.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_c8f5e\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_c8f5e.dir\build.make /nologo -L                  CMakeFiles\cmTC_c8f5e.dir\build
+Building C object CMakeFiles/cmTC_c8f5e.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm8E0B.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_c8f5e.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c8f5e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_c8f5e.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm8EB8.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e45fc\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e45fc.dir\build.make /nologo -L                  CMakeFiles\cmTC_e45fc.dir\build
+Building CXX object CMakeFiles/cmTC_e45fc.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9639.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_e45fc.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e45fc.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e45fc.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm9705.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_a0c43\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_a0c43.dir\build.make /nologo -L                  CMakeFiles\cmTC_a0c43.dir\build
+Building CXX object CMakeFiles/cmTC_a0c43.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9E18.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a0c43.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a0c43.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_a0c43.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm9EC5.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_9144f\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_9144f.dir\build.make /nologo -L                  CMakeFiles\cmTC_9144f.dir\build
+Building C object CMakeFiles/cmTC_9144f.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm7F99.tmp
+testCCompiler.c
+Linking C executable cmTC_9144f.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9144f.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_9144f.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm815F.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_86a49\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_86a49.dir\build.make /nologo -L                  CMakeFiles\cmTC_86a49.dir\build
+Building C object CMakeFiles/cmTC_86a49.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm88EF.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_86a49.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_86a49.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_86a49.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm8A58.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_b248e\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_b248e.dir\build.make /nologo -L                  CMakeFiles\cmTC_b248e.dir\build
+Building CXX object CMakeFiles/cmTC_b248e.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm910E.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_b248e.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b248e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b248e.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm91CA.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_a0b9c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_a0b9c.dir\build.make /nologo -L                  CMakeFiles\cmTC_a0b9c.dir\build
+Building CXX object CMakeFiles/cmTC_a0b9c.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9812.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a0b9c.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a0b9c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_a0b9c.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm98CF.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_cf4f8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_cf4f8.dir\build.make /nologo -L                  CMakeFiles\cmTC_cf4f8.dir\build
+Building C object CMakeFiles/cmTC_cf4f8.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmA68A.tmp
+testCCompiler.c
+Linking C executable cmTC_cf4f8.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cf4f8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_cf4f8.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmA717.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_41954\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_41954.dir\build.make /nologo -L                  CMakeFiles\cmTC_41954.dir\build
+Building C object CMakeFiles/cmTC_41954.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmAEB7.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_41954.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_41954.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_41954.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmAF45.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_b30dd\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_b30dd.dir\build.make /nologo -L                  CMakeFiles\cmTC_b30dd.dir\build
+Building CXX object CMakeFiles/cmTC_b30dd.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmB6A7.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_b30dd.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b30dd.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b30dd.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmB744.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_9c427\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_9c427.dir\build.make /nologo -L                  CMakeFiles\cmTC_9c427.dir\build
+Building CXX object CMakeFiles/cmTC_9c427.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmBE48.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_9c427.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9c427.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_9c427.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmBEE5.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_c783b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_c783b.dir\build.make /nologo -L                  CMakeFiles\cmTC_c783b.dir\build
+Building C object CMakeFiles/cmTC_c783b.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm6210.tmp
+testCCompiler.c
+Linking C executable cmTC_c783b.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c783b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_c783b.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm631A.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_c7e86\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_c7e86.dir\build.make /nologo -L                  CMakeFiles\cmTC_c7e86.dir\build
+Building C object CMakeFiles/cmTC_c7e86.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm6BD4.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_c7e86.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c7e86.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_c7e86.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm6CA0.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_27154\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_27154.dir\build.make /nologo -L                  CMakeFiles\cmTC_27154.dir\build
+Building CXX object CMakeFiles/cmTC_27154.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm7411.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_27154.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_27154.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_27154.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm74CE.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_1b40a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_1b40a.dir\build.make /nologo -L                  CMakeFiles\cmTC_1b40a.dir\build
+Building CXX object CMakeFiles/cmTC_1b40a.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm7B26.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_1b40a.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_1b40a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_1b40a.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm7BE2.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29334 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29334.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_7b197\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_7b197.dir\build.make /nologo -L                  CMakeFiles\cmTC_7b197.dir\build
+Building C object CMakeFiles/cmTC_7b197.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm89CC.tmp
+testCCompiler.c
+Linking C executable cmTC_7b197.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7b197.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7b197.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm8A59.tmp
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCCompiler.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCCompiler.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_5f662\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_5f662.dir\build.make /nologo -L                  CMakeFiles\cmTC_5f662.dir\build
+Building C object CMakeFiles/cmTC_5f662.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9267.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_5f662.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5f662.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_5f662.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm92F4.tmp
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCCompilerABI.c.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCCompilerABI.c.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_0573e\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_0573e.dir\build.make /nologo -L                  CMakeFiles\cmTC_0573e.dir\build
+Building CXX object CMakeFiles/cmTC_0573e.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nm9A75.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_0573e.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0573e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_0573e.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nm9B12.tmp
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+testCXXCompiler.cxx.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'testCXXCompiler.cxx.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_277c0\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_277c0.dir\build.make /nologo -L                  CMakeFiles\cmTC_277c0.dir\build
+Building CXX object CMakeFiles/cmTC_277c0.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\nmA226.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_277c0.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_277c0.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_277c0.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmA2E2.tmp
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+CMakeCXXCompilerABI.cpp.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'CMakeCXXCompilerABI.cpp.obj' or at 'G:\My Drive\year1\year1-semesterB\C C++\C++\Ex5\cmake-build-debug\CMakeFiles\CMakeTmp\vc140.pdb'; linking object as if no debug info
+
+
+

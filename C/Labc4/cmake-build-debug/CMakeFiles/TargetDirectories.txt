@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Jonathan/ComputerSience/semesterB/CC++/Labc4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Jonathan/ComputerSience/semesterB/CC++/Labc4/cmake-build-debug/CMakeFiles/Labc4.dir
+/cygdrive/c/Users/Jonathan/ComputerSience/semesterB/CC++/Labc4/cmake-build-debug/CMakeFiles/edit_cache.dir

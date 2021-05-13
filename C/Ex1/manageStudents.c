@@ -10,7 +10,7 @@
 #define COUNTRY 2
 #define CITY 3
 #define NUMBER_OF_PARAMETERS 6
-#define LENGTH_LINE 59
+#define LENGTH_LINE 61
 #define MINIMUM_AGE 18
 #define MAXIMUM_AGE 120
 #define MINIMUM_GRADE 0
@@ -164,7 +164,7 @@ void inputStudent()
     char input[LENGTH_LINE];
     Student student;
 #ifdef FILE_INPUT
-    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\quick_input8_unsorted.txt",
+    FILE *file = fopen("C:\\Users\\Jonathan\\ComputerSience\\semesterB\\CC++\\Ex1\\test.txt",
             "r");
 #endif
     while (students_number < MAX_STUDENT_NUMBER)
@@ -407,7 +407,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("USAGE: the input argument is invalid. please run the program again\n");
+        printf("USAGE: manageStudents <action>\n");
         return 1;
     }
     return 0;

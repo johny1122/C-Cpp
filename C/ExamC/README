@@ -1,0 +1,39 @@
+Name: Jonathan Birnbaum
+ID: 204801070
+CS-USER: yonatan11
+
+SpreaderDetectorBackend
+-----------------------------
+Please explain how you dealt with the following parts of the exam.
+
+Input processing
+----------------
+I read the people and meetings files line by line and used fgets and sscanf for getting the data.
+I stoped the loop of reading when there was an empty line (when fgets returns NULL).
+
+Data storing
+------------
+I made a struct of 'Person' which saves a person's name, id, age and his infection_chance value.
+Then I made an array of 'Person's named 'people' and stored all the people inside.
+This array is dynamicaly allocated because we dont know the quantity of the people. (I used calloc at first 
+and then realloc each time the array got full).
+
+I decided not to store the meeting because there is not need for them after the input processing and to 
+improve the storage efficiency.
+I calculated the infection_chance while I read the meetings file. it is possible because for each meeting 
+we only need the the current Crna value
+and the infector's infection_chance (his infection_chance already includes the previous needed calculations).
+before I read the meetings I sorted the people array by id (with qsort - O(nlogn)). with this I am able to 
+search quickly (O(logn)) a person with binary-search (bsearch).
+I used this search to find the infector's infection_chance value.
+To improve the efficiency I store the last infector's infection_chance to read it fast for the next 
+meetings if they have the same infector, and just searched (with bsearch) the infection_chance 
+value for new infectors.
+At the end, each person in the meetings file has his infection_chance value in his 'Person' struct.
+
+Results sorting
+---------------
+I use again the qsort for sorting the people array by infection_chance value.
+Then I pass in a for loop from the end to the begining of the array and print the correct
+message according to the thresholds.
+

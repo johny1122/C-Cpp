@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Labc2" targetName="Labc2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2a5f1d8-b688-4964-a51a-aaa85f748b32" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1Zsu2sdi8qCJua8ZDEgqgD0faei" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labc1" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Labc2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Labc2" TARGET_NAME="Labc2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Labc2" RUN_TARGET_NAME="Labc2">
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_style" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2a5f1d8-b688-4964-a51a-aaa85f748b32" name="Default Changelist" comment="" />
+      <created>1585639918018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585639918018</updated>
+      <workItem from="1585639919240" duration="1451000" />
+      <workItem from="1585992006327" duration="1031000" />
+      <workItem from="1585993231987" duration="915000" />
+      <workItem from="1585994214596" duration="1151000" />
+      <workItem from="1586172052984" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585994260907">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585994260907" />
+    <state x="356" y="181" key="#com.intellij.tools.ToolEditorDialog" timestamp="1585994258541">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="356" y="181" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1585994258541" />
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1586172065421">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586172065421" />
+    <state width="1237" height="343" key="GridCell.Tab.0.bottom" timestamp="1585997271229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="343" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585997271229" />
+    <state width="1237" height="343" key="GridCell.Tab.0.center" timestamp="1585997271229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="343" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585997271229" />
+    <state width="1237" height="343" key="GridCell.Tab.0.left" timestamp="1585997271229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="343" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585997271229" />
+    <state width="1237" height="343" key="GridCell.Tab.0.right" timestamp="1585997271229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="343" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585997271229" />
+    <state x="536" y="76" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1585994259313">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="536" y="76" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1280.680@0.0.1280.680" timestamp="1585994259313" />
+  </component>
+</project>

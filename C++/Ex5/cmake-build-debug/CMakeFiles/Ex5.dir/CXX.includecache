@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/RecommenderSystem.cpp
+RecommenderSystem.h
+G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/RecommenderSystem.h
+fstream
+-
+sstream
+-
+algorithm
+-
+cmath
+-
+
+G:/My Drive/year1/year1-semesterB/C C++/C++/Ex5/RecommenderSystem.h
+string
+-
+unordered_map
+-
+vector
+-
+valarray
+-
+iostream
+-
+

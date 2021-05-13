@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Labc__3.dir/main.cpp.o  -o Labc__3.exe -Wl,--out-implib,libLabc__3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
